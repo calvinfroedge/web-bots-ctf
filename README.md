@@ -8,6 +8,8 @@ The attackers must use the infected script to steal an authenticated session and
 
 #Code overview
 
+Note: I have an EC2 AMI for running everything. Send me a message if you want it.
+
 Ran on an Ubuntu 14.04 instance on EC2. The web app ran behind an Apache2 server (configuration included in this repo).
 
 - /webapp: The example app. Uses FlightPHP for routing, simple GET and POST routes. the dispatch function is where you can put all global logic to defend against attackers.
